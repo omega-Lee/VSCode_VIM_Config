@@ -1,0 +1,34 @@
+{
+    "editor.fontSize": 20,
+    "editor.lineNumbers": "relative",
+
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "vim.insertModeKeyBindings": [{
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+    }],
+    "vim.normalModeKeyBindingsNonRecursive": [{
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["<leader>", "s"],
+            "commands": [":w!"]
+        },
+        {
+            "before": ["<leader>", "q"],
+            "commands": [":q!"]
+        },
+        {
+            "before": ["<leader>", "sq"],
+            "commands": [":wq!"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-n>": false
+    }
+
+}
